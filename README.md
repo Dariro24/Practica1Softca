@@ -12,3 +12,11 @@ git commit -m "commit inicial"
 ```
 ## 4. Push al repositorio remoto
 * `git push origin main` 
+# 5. Crear una carpeta llamada `privada` y un archivo llamado `privado.txt`
+## 6. Realizar cambios para que el documento y la carpeta sean ignorados.
+```markdown
+echo "privado.txt" > .gitignore
+echo "/privada" > .gitignore
+git add .
+git commit -m "añadido fichero .gitignore"
+```
