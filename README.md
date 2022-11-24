@@ -20,3 +20,8 @@ echo "/privada" > .gitignore
 git add .
 git commit -m "añadido fichero .gitignore"
 ```
+## 7. Crear un fichero `1.txt`
+```markdown
+git add .
+git commit -m "añadido 1.txt"
+```
