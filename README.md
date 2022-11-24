@@ -50,7 +50,7 @@ git push origin v0.2
 git checkout main
 ## 14. Hacer un merge de la rama v0.2 en la rama main.
 git merge v0.2 -m "merge v0.2 sin conflictos"
-## 15.En la rama master poner Hola en el fichero 1.txt y hacer commit.
+## 15.En la rama main poner Hola en el fichero 1.txt y hacer commit.
 ```markdown
 git checkout main
 git add .
@@ -61,4 +61,11 @@ git commit -m "hola en 1.txt"
 git checkout v0.2
 git add .
 git commit -m "adios en 1.txt"
+```
+## 17. Posicionarse de nuevo en la rama main y hacer un merge con la rama v0.2
+```markdown
+git checkout main
+git merge v0.2
+git add .
+git commit -m "arreglado merge en 1.txt"
 ```
